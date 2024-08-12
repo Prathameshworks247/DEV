@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .product-card {
+            max-width: 600px;
+            background-color: #f8f3ee;
+            border-radius: 10px;
+            padding: 20px;
+            margin: auto;
+        }
+        .product-image {
+            width: 90%;
+
+        }
+        .product-details {
+            padding-left: 20px;
+        }
+        .product-title {
+            font-weight: bolder;
+            font-family:"Fraunces", serif;;
+            font-size: 2rem;
+        }
+        .product-description {
+            color: #666;
+            font-family: "Montserrat", sans-serif;
+            font-size: 0.9rem;
+        }
+        .product-price {
+            font-weight: bold;
+            font-family: "Fraunces", serif;
+            font-size: 1.5rem;
+            color: #28a745;
+        }
+        .product-old-price {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 0.8rem;
+            margin-left: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="product-card d-flex">
+        <div class="col d-flex">
+            <img src="images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum" class="product-image">
+        </div>
+        <div class="col-6 xt-uppercase">Perfume</h6>
+            <h2 class="product-title">Gabrielle Essence Eau De Parfum</h2>
+            <p class="product-description">
+                A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+            <p>
+                <span class="product-price">$149.99</span>
+                <span class="product-old-price">$169.99</span>
+            </p>
+            <button class="btn btn-success" onclick="window.location.href = 'https://perfumery.ae/products/gabrielle-by-chanel-essence-eau-de-parfum-100ml-for-women-2?variant=44617438396569&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gclid=Cj0KCQjwwuG1BhCnARIsAFWBUC2hONDUVpr68i9j9y2F5f3Q54agxrliTwTb129C8_F4_CqOFpbpmZsaAoWGEALw_wcB'">Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
